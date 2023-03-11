@@ -1,0 +1,100 @@
+#main {
+  width: 550px;
+  height: 500px;
+  border: 2px solid black;
+  background: #1f2937;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+}
+
+#hero {
+  width: 500px;
+  border-bottom: 2px solid #2f3e53;
+  margin-bottom: 20px;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.output {
+  width: 210px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400px;
+  font-size: 13px;
+  background: #273549;
+  color: #0ea5e9;
+  border-radius: 5px;
+}
+
+#footer {
+  margin: 0 auto;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.heading,
+.sub-heading {
+  font-family: "Karla", sans-serif;
+  margin: 0px;
+}
+
+.heading {
+  margin: 0px auto auto 0;
+  color: #ffffff;
+}
+.sub-heading {
+  color: #0ea5e9;
+}
+.title {
+  font-family: "Inter", sans-serif;
+  margin-top: 5px;
+  color: #d5d4d8;
+}
+
+.btn {
+  font-family: "Inter", sans-serif;
+  font-weight: 500px;
+  margin: 20px 0px 20px 0px;
+  padding: 10px 15px;
+  background: #38bdf8;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+#passwordStrength {
+  font-family: "Karla", sans-serif;
+  font-weight: 500px;
+  color: #d5d4d8;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #0ea5e9;
+  font-size: 20px;
+}
+
+input,
+label {
+  margin: 0.2rem auto;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
